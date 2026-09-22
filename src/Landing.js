@@ -42,13 +42,7 @@ const Landing = () => {
     // handle request here
   }
 
-  useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "https://embed.tawk.to/YOUR_WIDGET_ID/default";
-    script.async = true;
-    document.body.appendChild(script);
-    return () => document.body.removeChild(script);
-  }, []);
+
 
   return (
     <div className="dw-root">
