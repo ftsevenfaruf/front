@@ -30,10 +30,10 @@ const Landing = () => {
       <style>{`
         .dw-root {
           --bg: #ffffff;
-          --panel: #f6f7f9;
+          --panel: #3C910E;
           --line: #e3e5e9;
-          --accent: #2f6fed;
-          --accent-dark: #1f4fc4;
+          --accent: #3C910E;
+          --accent-dark: #3C910E;
           --text: #16181d;
           --text-dim: #6b7280;
 
@@ -80,7 +80,7 @@ const Landing = () => {
           display: inline-block;
           font-size: 13px;
           font-weight: 600;
-          color: var(--accent);
+          color: #3C910E;
           background: rgba(47, 111, 237, 0.08);
           border-radius: 999px;
           padding: 6px 14px;
